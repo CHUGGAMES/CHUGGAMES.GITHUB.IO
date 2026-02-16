@@ -421,7 +421,7 @@
             align-items: center;
             justify-content: center;
             opacity: 0;
-            transition: opacity 0.3s ease;
+            transition: opacity 0.2s ease;
         }
         .modal.active {
             display: flex;
@@ -441,11 +441,14 @@
             overflow: hidden;
             display: flex;
             flex-direction: column;
+            transform: scale(0.8);
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
+        }
+        .modal.active .modal-content {
             transform: scale(1);
-            transition: transform 0.3s ease;
         }
         .modal.closing .modal-content {
-            transform: scale(0.95);
+            transform: scale(0.8);
         }
         .modal-header {
             display: flex;
