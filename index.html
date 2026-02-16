@@ -177,6 +177,14 @@
             align-items: center;
             justify-content: center;
             padding: 30px;
+            opacity: 0;
+            transform: translateY(40px);
+            animation: slideMain 0.9s cubic-bezier(0.15, 0.9, 0.25, 1) forwards;
+            animation-delay: 0.15s;
+        }
+        @keyframes slideMain {
+            0% { opacity: 0; transform: translateY(40px); }
+            100% { opacity: 1; transform: translateY(0); }
         }
         .hero-container {
             text-align: center;
@@ -195,6 +203,14 @@
             filter: drop-shadow(0 0 25px rgba(59,130,246,0.5));
             letter-spacing: -2px;
             text-shadow: 0 0 10px rgba(59,130,246,0.3);
+            opacity: 0;
+            transform: scale(0.96);
+            animation: titleGlow 0.7s ease-out forwards;
+            animation-delay: 0.3s;
+        }
+        @keyframes titleGlow {
+            0% { opacity: 0; transform: scale(0.96); }
+            100% { opacity: 1; transform: scale(1); }
         }
         @media (max-width: 700px) {
             .glitch-title { font-size: 72px; }
@@ -210,6 +226,12 @@
             backdrop-filter: blur(16px);
             margin-bottom: 50px;
             box-shadow: 0 15px 35px -10px #000, 0 0 0 1px rgba(59,130,246,0.2);
+            opacity: 0;
+            animation: fadeStagger 0.6s forwards;
+            animation-delay: 0.45s;
+        }
+        @keyframes fadeStagger {
+            to { opacity: 1; }
         }
         #type-icon {
             color: var(--accent);
@@ -250,6 +272,15 @@
             position: relative;
             overflow: hidden;
             box-shadow: 0 20px 35px -12px black;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: cardSlide 0.5s forwards;
+        }
+        .glass-card:nth-child(1) { animation-delay: 0.6s; }
+        .glass-card:nth-child(2) { animation-delay: 0.75s; }
+        .glass-card:nth-child(3) { animation-delay: 0.9s; }
+        @keyframes cardSlide {
+            to { opacity: 1; transform: translateY(0); }
         }
         .glass-card::after {
             content: '';
@@ -314,6 +345,19 @@
             border-radius: 50%;
             box-shadow: 0 0 10px var(--primary);
         }
+        .quote-refresh {
+            background: transparent;
+            border: none;
+            color: #5f7caf;
+            margin-left: 6px;
+            cursor: pointer;
+            font-size: 12px;
+            transition: 0.2s;
+        }
+        .quote-refresh:hover {
+            color: var(--accent);
+            transform: rotate(90deg);
+        }
     </style>
 </head>
 <body>
@@ -354,15 +398,16 @@
             
             <br>
             
-            <div class="status-pill">
+            <div class="status-pill" id="statusPill">
                 <i id="type-icon" class="fa-solid fa-bolt"></i>
-                <div>
+                <div style="display: flex; align-items: center; gap: 6px;">
                     <span class="type-text" id="typewriter"></span><span class="cursor"></span>
+                    <button class="quote-refresh" id="refreshQuote" title="new quote"><i class="fa-solid fa-rotate-right"></i></button>
                 </div>
             </div>
 
             <div class="cards-container">
-                <div class="glass-card">
+                <div class="glass-card" onclick="location.href='/g.html'">
                     <div class="card-icon-box">
                         <i class="fa-solid fa-gamepad"></i>
                     </div>
@@ -370,7 +415,7 @@
                     <p>On-demand titles. Low latency.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card" onclick="location.href='/a.html'">
                     <div class="card-icon-box">
                         <i class="fa-solid fa-layer-group"></i>
                     </div>
@@ -378,7 +423,7 @@
                     <p>Essential tools & utilities, ready.</p>
                 </div>
 
-                <div class="glass-card">
+                <div class="glass-card" onclick="location.href='#'">
                     <div class="card-icon-box">
                         <i class="fa-solid fa-globe"></i>
                     </div>
@@ -473,44 +518,121 @@
         };
         animate();
 
-        const words = [
+        const typeEl = document.getElementById('typewriter');
+        const iconEl = document.getElementById('type-icon');
+        const refreshBtn = document.getElementById('refreshQuote');
+
+        const fallbackQuotes = [
             { text: "SYSTEM READY", icon: "fa-bolt" },
             { text: "SECURE PROXY", icon: "fa-shield-halved" },
             { text: "UNBLOCKED", icon: "fa-unlock" },
             { text: "HIGH SPEED", icon: "fa-gauge-high" }
         ];
-        
-        const typeEl = document.getElementById('typewriter');
-        const iconEl = document.getElementById('type-icon');
-        let wordIdx = 0;
+
+        let quotes = [];
+        let currentQuoteIndex = 0;
         let charIdx = 0;
         let isDeleting = false;
+        let typingTimeout;
 
-        const typeEffect = () => {
-            const current = words[wordIdx];
-            const currentText = current.text;
+        function loadQuote(index) {
+            if (typingTimeout) clearTimeout(typingTimeout);
             
-            if(charIdx === 0 && !isDeleting) {
-                iconEl.className = `fa-solid ${current.icon}`;
+            if (!quotes.length) {
+                quotes = fallbackQuotes.slice();
             }
+            currentQuoteIndex = (index + quotes.length) % quotes.length;
+            const current = quotes[currentQuoteIndex];
+            
+            iconEl.className = `fa-solid ${current.icon || 'fa-bolt'}`;
+            
+            charIdx = 0;
+            isDeleting = false;
+            typeEl.innerText = '';
+            
+            setTimeout(() => typeEffect(), 50);
+        }
 
+        function typeEffect() {
+            if (!quotes.length) {
+                quotes = fallbackQuotes.slice();
+            }
+            
+            const current = quotes[currentQuoteIndex] || { text: 'CHUG', icon: 'fa-bolt' };
+            const currentText = current.text || 'CHUG';
+            
+            iconEl.className = `fa-solid ${current.icon || 'fa-bolt'}`;
+            
             typeEl.innerText = currentText.substring(0, charIdx);
             
             if (!isDeleting && charIdx < currentText.length) {
                 charIdx++;
-                setTimeout(typeEffect, 50);
+                typingTimeout = setTimeout(typeEffect, 70);
             } else if (!isDeleting && charIdx === currentText.length) {
-                setTimeout(() => { isDeleting = true; typeEffect(); }, 2000);
+                typingTimeout = setTimeout(() => { 
+                    isDeleting = true; 
+                    typeEffect(); 
+                }, 2400);
             } else if (isDeleting && charIdx > 0) {
                 charIdx--;
-                setTimeout(typeEffect, 30);
+                typingTimeout = setTimeout(typeEffect, 40);
             } else {
                 isDeleting = false;
-                wordIdx = (wordIdx + 1) % words.length;
-                setTimeout(typeEffect, 200);
+                currentQuoteIndex = (currentQuoteIndex + 1) % quotes.length;
+                const next = quotes[currentQuoteIndex];
+                iconEl.className = `fa-solid ${next.icon || 'fa-bolt'}`;
+                typingTimeout = setTimeout(typeEffect, 150);
             }
-        };
-        typeEffect();
+        }
+
+        async function fetchQuotes() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/CHUGGAMES/CHUGGAMES.GITHUB.IO/refs/heads/main/backend/home/q.json');
+                if (!response.ok) throw new Error('network error');
+                const data = await response.json();
+                
+                if (Array.isArray(data) && data.length > 0) {
+                    quotes = data.map(item => ({
+                        text: item.text || 'CHUG',
+                        icon: item.icon || 'fa-bolt'
+                    }));
+                } else {
+                    quotes = fallbackQuotes.slice();
+                }
+            } catch (err) {
+                quotes = fallbackQuotes.slice();
+            }
+            
+            currentQuoteIndex = Math.floor(Math.random() * quotes.length);
+            const start = quotes[currentQuoteIndex];
+            iconEl.className = `fa-solid ${start.icon || 'fa-bolt'}`;
+            typeEl.innerText = ''; 
+            charIdx = 0; isDeleting = false;
+            setTimeout(typeEffect, 100);
+        }
+
+        refreshBtn.addEventListener('click', (e) => {
+            e.stopPropagation();
+            if (quotes.length === 0) {
+                quotes = fallbackQuotes.slice();
+            }
+            let newIdx;
+            do {
+                newIdx = Math.floor(Math.random() * quotes.length);
+            } while (quotes.length > 1 && newIdx === currentQuoteIndex);
+            
+            if (typingTimeout) clearTimeout(typingTimeout);
+            
+            currentQuoteIndex = newIdx;
+            const fresh = quotes[currentQuoteIndex];
+            iconEl.className = `fa-solid ${fresh.icon || 'fa-bolt'}`;
+            charIdx = 0;
+            isDeleting = false;
+            typeEl.innerText = '';
+            typingTimeout = setTimeout(typeEffect, 60);
+        });
+
+        fetchQuotes();
     </script>
 </body>
 </html>
