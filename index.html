@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHUG · HOME</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Orbitron:wght@600;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --primary: #3b82f6;
+            --primary-dark: #1e4b8f;
+            --accent: #60a5fa;
+            --bg-dark: #03080f;
+            --glass: rgba(12, 20, 35, 0.7);
+            --glass-strong: rgba(8, 15, 28, 0.85);
+            --border: rgba(255, 255, 255, 0.06);
+            --border-light: rgba(59, 130, 246, 0.2);
+            --glow: 0 0 25px rgba(59, 130, 246, 0.4);
+            --text-secondary: #94a3b8;
+            --text-primary: #f1f5f9;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Inter', sans-serif;
+            scrollbar-width: none;
+        }
+        body {
+            background-color: var(--bg-dark);
+            color: #fff;
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+            display: flex;
+        }
+        canvas {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 0;
+        }
+        .vignette {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at center, transparent 30%, #000 140%);
+            z-index: 1;
+            pointer-events: none;
+        }
+        .sidebar {
+            width: 230px;
+            height: 100vh;
+            background: var(--glass);
+            backdrop-filter: blur(24px);
+            -webkit-backdrop-filter: blur(24px);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+            padding: 32px 16px;
+            z-index: 10;
+            position: relative;
+            box-shadow: 6px 0 30px rgba(0,0,0,0.7);
+            transition: width 0.2s ease;
+        }
+        .brand {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 28px;
+            font-weight: 900;
+            color: #fff;
+            margin-bottom: 40px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            letter-spacing: -0.5px;
+            text-shadow: 0 0 15px rgba(59, 130, 246, 0.8);
+            padding-left: 8px;
+        }
+        .brand i {
+            font-size: 24px;
+            color: var(--primary);
+            filter: drop-shadow(0 0 8px var(--primary));
+        }
+        .nav {
+            display: flex;
+            flex-direction: column;
+            gap: 6px;
+        }
+        .nav-item {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+            padding: 12px 16px;
+            color: var(--text-secondary);
+            text-decoration: none;
+            border-radius: 10px;
+            transition: all 0.25s ease;
+            border: 1px solid transparent;
+            font-weight: 500;
+            font-size: 15px;
+            position: relative;
+            overflow: hidden;
+        }
+        .nav-item i {
+            width: 22px;
+            text-align: center;
+            font-size: 17px;
+            transition: 0.25s;
+        }
+        .nav-item:hover {
+            background: rgba(59, 130, 246, 0.15);
+            color: #fff;
+            border-color: var(--border-light);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+        }
+        .nav-item.active {
+            background: linear-gradient(90deg, rgba(59,130,246,0.2) 0%, rgba(59,130,246,0.05) 80%);
+            color: #fff;
+            border-left: 3px solid var(--primary);
+            border-radius: 10px 4px 4px 10px;
+            box-shadow: inset 0 1px 2px rgba(255,255,255,0.05);
+        }
+        .nav-item.active i {
+            color: var(--accent);
+            text-shadow: 0 0 10px var(--primary);
+        }
+        .nav-item:not(.active):hover i {
+            color: var(--accent);
+            transform: scale(1.1);
+        }
+        .nav-item::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent);
+            transition: left 0.5s;
+        }
+        .nav-item:hover::before {
+            left: 100%;
+        }
+        .version {
+            margin-top: auto;
+            color: #5f6c84;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 12px;
+            padding-top: 20px;
+            border-top: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            letter-spacing: 0.3px;
+        }
+        .version span:first-child {
+            background: rgba(59,130,246,0.2);
+            padding: 4px 10px;
+            border-radius: 20px;
+            color: #b1c9ff;
+            font-weight: 500;
+        }
+        .version i {
+            color: #10b981;
+            font-size: 12px;
+        }
+        .main {
+            flex: 1;
+            position: relative;
+            z-index: 5;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+        }
+        .hero-container {
+            text-align: center;
+            max-width: 1100px;
+            width: 100%;
+        }
+        .glitch-title {
+            font-family: 'Orbitron', sans-serif;
+            font-size: 100px;
+            font-weight: 900;
+            line-height: 1;
+            margin-bottom: 20px;
+            color: white;
+            position: relative;
+            display: inline-block;
+            filter: drop-shadow(0 0 25px rgba(59,130,246,0.5));
+            letter-spacing: -2px;
+            text-shadow: 0 0 10px rgba(59,130,246,0.3);
+        }
+        @media (max-width: 700px) {
+            .glitch-title { font-size: 72px; }
+        }
+        .status-pill {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(8, 18, 32, 0.8);
+            border: 1px solid rgba(59,130,246,0.3);
+            padding: 8px 30px;
+            border-radius: 100px;
+            backdrop-filter: blur(16px);
+            margin-bottom: 50px;
+            box-shadow: 0 15px 35px -10px #000, 0 0 0 1px rgba(59,130,246,0.2);
+        }
+        #type-icon {
+            color: var(--accent);
+            font-size: 16px;
+        }
+        .type-text {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 14px;
+            color: #e2e8f0;
+            letter-spacing: 1px;
+        }
+        .cursor {
+            width: 8px;
+            height: 2px;
+            background: var(--primary);
+            display: inline-block;
+            animation: blink 1s infinite;
+            margin-left: 3px;
+        }
+        @keyframes blink { 50% { opacity: 0; } }
+        .cards-container {
+            display: flex;
+            gap: 30px;
+            justify-content: center;
+            width: 100%;
+            flex-wrap: wrap;
+        }
+        .glass-card {
+            background: linear-gradient(145deg, rgba(22, 32, 50, 0.6) 0%, rgba(12, 20, 32, 0.7) 100%);
+            border: 1px solid rgba(255,255,255,0.03);
+            backdrop-filter: blur(12px);
+            border-radius: 28px;
+            padding: 34px 24px 30px;
+            width: 260px;
+            text-align: center;
+            cursor: pointer;
+            transition: all 0.4s cubic-bezier(0.2, 0.9, 0.3, 1.1);
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 20px 35px -12px black;
+        }
+        .glass-card::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 28px;
+            padding: 1px;
+            background: linear-gradient(145deg, rgba(59,130,246,0.3), rgba(255,255,255,0.05));
+            -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+            -webkit-mask-composite: xor;
+            mask-composite: exclude;
+            pointer-events: none;
+            opacity: 0.5;
+        }
+        .glass-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            border-color: rgba(59,130,246,0.3);
+            box-shadow: 0 30px 45px -12px black, 0 0 0 1px rgba(59,130,246,0.4);
+        }
+        .card-icon-box {
+            width: 75px;
+            height: 75px;
+            background: rgba(10, 20, 35, 0.8);
+            border-radius: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 24px;
+            font-size: 34px;
+            color: #9bbaff;
+            transition: 0.4s;
+            border: 1px solid rgba(255,255,255,0.1);
+            box-shadow: inset 0 4px 8px rgba(0,0,0,0.4), 0 6px 12px rgba(0,0,0,0.3);
+        }
+        .glass-card:hover .card-icon-box {
+            background: var(--primary);
+            color: #fff;
+            box-shadow: 0 0 35px rgba(59, 130, 246, 0.7), inset 0 2px 5px rgba(255,255,255,0.4);
+            transform: rotateY(180deg) scale(1.02);
+            border-color: rgba(255,255,255,0.3);
+        }
+        .glass-card h3 {
+            font-size: 23px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            color: #fff;
+            letter-spacing: -0.3px;
+        }
+        .glass-card p {
+            font-size: 14px;
+            color: #8a99b3;
+            line-height: 1.5;
+            font-weight: 400;
+        }
+        .nav-item.active::after {
+            content: '';
+            position: absolute;
+            right: 12px;
+            width: 6px;
+            height: 6px;
+            background: var(--primary);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--primary);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="canvas"></canvas>
+    <div class="vignette"></div>
+
+    <div class="sidebar">
+        <div class="brand">
+            <i class="fa-solid fa-cubes"></i> CHUG
+        </div>
+        <div class="nav">
+            <a href="/index.html" class="nav-item active">
+                <i class="fa-solid fa-house"></i>
+                <span>Home</span>
+            </a>
+            <a href="/g.html" class="nav-item">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Games</span>
+            </a>
+            <a href="/a.html" class="nav-item">
+                <i class="fa-solid fa-layer-group"></i>
+                <span>Apps</span>
+            </a>
+            <a href="#" class="nav-item">
+                <i class="fa-solid fa-globe"></i>
+                <span>Proxy</span>
+            </a>
+        </div>
+        <div class="version">
+            <span>v.1.0.0</span>
+            <span><i class="fa-solid fa-signal"></i> online</span>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class="hero-container">
+            <div class="glitch-title">CHUG</div>
+            
+            <br>
+            
+            <div class="status-pill">
+                <i id="type-icon" class="fa-solid fa-bolt"></i>
+                <div>
+                    <span class="type-text" id="typewriter"></span><span class="cursor"></span>
+                </div>
+            </div>
+
+            <div class="cards-container">
+                <div class="glass-card">
+                    <div class="card-icon-box">
+                        <i class="fa-solid fa-gamepad"></i>
+                    </div>
+                    <h3>Games</h3>
+                    <p>1,200+ on-demand titles. Low latency.</p>
+                </div>
+
+                <div class="glass-card">
+                    <div class="card-icon-box">
+                        <i class="fa-solid fa-layer-group"></i>
+                    </div>
+                    <h3>Apps</h3>
+                    <p>Essential tools & utilities, ready.</p>
+                </div>
+
+                <div class="glass-card">
+                    <div class="card-icon-box">
+                        <i class="fa-solid fa-globe"></i>
+                    </div>
+                    <h3>Proxy</h3>
+                    <p>Secure tunnel · encrypted & fast.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('canvas');
+        const ctx = canvas.getContext('2d');
+        
+        let w, h;
+        const resize = () => {
+            w = canvas.width = window.innerWidth;
+            h = canvas.height = window.innerHeight;
+        };
+        window.addEventListener('resize', resize);
+        resize();
+
+        const mouse = { x: null, y: null };
+        window.addEventListener('mousemove', e => {
+            mouse.x = e.clientX;
+            mouse.y = e.clientY;
+        });
+        window.addEventListener('mouseleave', () => {
+            mouse.x = null;
+            mouse.y = null;
+        });
+
+        class Dot {
+            constructor() {
+                this.x = Math.random() * w;
+                this.y = Math.random() * h;
+                this.vx = (Math.random() - 0.5) * 0.4;
+                this.vy = (Math.random() - 0.5) * 0.4;
+                this.size = Math.random() * 2.2 + 0.8;
+            }
+            update() {
+                this.x += this.vx;
+                this.y += this.vy;
+                if(this.x < 0 || this.x > w) this.vx *= -1;
+                if(this.y < 0 || this.y > h) this.vy *= -1;
+
+                if(mouse.x) {
+                    const dx = mouse.x - this.x;
+                    const dy = mouse.y - this.y;
+                    const dist = Math.sqrt(dx*dx + dy*dy);
+                    if(dist < 200) {
+                        const angle = Math.atan2(dy, dx);
+                        const force = (200 - dist) / 200;
+                        this.x -= Math.cos(angle) * force * 2.2;
+                        this.y -= Math.sin(angle) * force * 2.2;
+                    }
+                }
+            }
+            draw() {
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI*2);
+                ctx.fillStyle = `rgba(80, 150, 255, 0.85)`;
+                ctx.fill();
+            }
+        }
+
+        const dots = Array.from({ length: 75 }, () => new Dot());
+
+        const animate = () => {
+            ctx.clearRect(0, 0, w, h);
+            dots.forEach(dot => {
+                dot.update();
+                dot.draw();
+            });
+            
+            for(let i=0; i<dots.length; i++) {
+                for(let j=i+1; j<dots.length; j++) {
+                    const dx = dots[i].x - dots[j].x;
+                    const dy = dots[i].y - dots[j].y;
+                    const dist = Math.sqrt(dx*dx + dy*dy);
+                    if(dist < 120) {
+                        ctx.beginPath();
+                        ctx.moveTo(dots[i].x, dots[i].y);
+                        ctx.lineTo(dots[j].x, dots[j].y);
+                        ctx.strokeStyle = `rgba(100, 170, 255, ${1 - dist/120})`;
+                        ctx.lineWidth = 0.5;
+                        ctx.stroke();
+                    }
+                }
+            }
+            requestAnimationFrame(animate);
+        };
+        animate();
+
+        const words = [
+            { text: "SYSTEM READY", icon: "fa-bolt" },
+            { text: "SECURE PROXY", icon: "fa-shield-halved" },
+            { text: "UNBLOCKED", icon: "fa-unlock" },
+            { text: "HIGH SPEED", icon: "fa-gauge-high" }
+        ];
+        
+        const typeEl = document.getElementById('typewriter');
+        const iconEl = document.getElementById('type-icon');
+        let wordIdx = 0;
+        let charIdx = 0;
+        let isDeleting = false;
+
+        const typeEffect = () => {
+            const current = words[wordIdx];
+            const currentText = current.text;
+            
+            if(charIdx === 0 && !isDeleting) {
+                iconEl.className = `fa-solid ${current.icon}`;
+            }
+
+            typeEl.innerText = currentText.substring(0, charIdx);
+            
+            if (!isDeleting && charIdx < currentText.length) {
+                charIdx++;
+                setTimeout(typeEffect, 50);
+            } else if (!isDeleting && charIdx === currentText.length) {
+                setTimeout(() => { isDeleting = true; typeEffect(); }, 2000);
+            } else if (isDeleting && charIdx > 0) {
+                charIdx--;
+                setTimeout(typeEffect, 30);
+            } else {
+                isDeleting = false;
+                wordIdx = (wordIdx + 1) % words.length;
+                setTimeout(typeEffect, 200);
+            }
+        };
+        typeEffect();
+    </script>
+</body>
+</html>
