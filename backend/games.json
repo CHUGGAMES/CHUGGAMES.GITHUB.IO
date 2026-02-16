@@ -1,1932 +1,422 @@
 [
-    {
-        "title": "Five Nights at the Big Eps",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQy1rZ2987WPeeOexcR7CUv4pCDCHpjOlJi5A&s",
-        "url": "https://freedomgamingzone.github.io/five-nights-at-epsteins/"
-    },
-    {
-    "title": "Retro Bowl",
-    "url": "https://hfmanor.com/retro-bowl",
-    "image": "https://hfmanor.com/image/retro-bowl"
-  },
-  {
-    "title": "Subway Surfers",
-    "url": "https://hfmanor.com/subway-surfers",
-    "image": "https://hfmanor.com/image/subway-surfers"
-  },
-  {
-    "title": "Basketball Stars",
-    "url": "https://hfmanor.com/basketball-stars",
-    "image": "https://hfmanor.com/image/basketball-stars"
-  },
-  {
-    "title": "Basket Random",
-    "url": "https://hfmanor.com/basket-random",
-    "image": "https://hfmanor.com/image/basket-random"
-  },
-  {
-    "title": "Stickman Hook",
-    "url": "https://hfmanor.com/stickman-hook",
-    "image": "https://hfmanor.com/image/stickman-hook"
-  },
-  {
-    "title": "Smash Karts",
-    "url": "https://hfmanor.com/Smash Karts",
-    "image": "https://hfmanor.com/image/Smash Karts"
-  },
-  {
-    "title": "Cookie Clicker",
-    "url": "https://hfmanor.com/cookie-clicker",
-    "image": "https://hfmanor.com/image/cookie-clicker"
-  },
-  {
-    "title": "Moto X3M",
-    "url": "https://hfmanor.com/moto-X3M",
-    "image": "https://hfmanor.com/image/moto-X3M"
-  },
-  {
-    "title": "Bitlife",
-    "url": "https://hfmanor.com/bitlife",
-    "image": "https://hfmanor.com/image/bitlife"
-  },
-  {
-    "title": "Superhot",
-    "url": "https://hfmanor.com/superhot",
-    "image": "https://hfmanor.com/image/superhot"
-  },
-  {
-    "title": "1v1lol",
-    "url": "https://hfmanor.com/1v1lol",
-    "image": "https://hfmanor.com/image/1v1lol"
-  },
-  {
-    "title": "Roblox",
-    "url": "https://hfmanor.com/roblox",
-    "image": "https://hfmanor.com/image/roblox"
-  },
-  {
-    "title": "Among Us",
-    "url": "https://hfmanor.com/among-us",
-    "image": "https://hfmanor.com/image/among-us"
-  },
-  {
-    "title": "Snow Rider 3D",
-    "url": "https://games.mathpapers.org/snowrider3d/index.html",
-    "image": "https://hfmanor.com/image/Snow Rider 3D"
-  },
-  {
-    "title": "Minecraft",
-    "url": "https://hfmanor.com/Minecraft",
-    "image": "https://hfmanor.com/image/Minecraft"
-  },
-  {
-    "title": "Soundboard",
-    "url": "https://hfmanor.com/soundboard",
-    "image": "https://hfmanor.com/image/soundboard"
-  },
-  {
-    "title": "Madalin Stunt Cars 2",
-    "url": "https://hfmanor.com/madalin-stunt-cars-2",
-    "image": "https://hfmanor.com/image/madalin-stunt-cars-2"
-  },
-  {
-    "title": "Deepest Sword",
-    "url": "https://hfmanor.com/deepest-sword",
-    "image": "https://hfmanor.com/image/deepest-sword"
-  },
-  {
-    "title": "Soccer Skills",
-    "url": "https://hfmanor.com/soccer-skills",
-    "image": "https://hfmanor.com/image/soccer-skills"
-  },
-  {
-    "title": "Javascript Snake",
-    "url": "https://hfmanor.com/javascript-snake",
-    "image": "https://hfmanor.com/image/javascript-snake"
-  },
-  {
-    "title": "Basketbros Io",
-    "url": "https://hfmanor.com/basketbros-io",
-    "image": "https://hfmanor.com/image/basketbros-io"
-  },
-  {
-    "title": "Slitherio",
-    "url": "https://hfmanor.com/slitherio",
-    "image": "https://hfmanor.com/image/slitherio"
-  },
-  {
-    "title": "Fortnite",
-    "url": "https://hfmanor.com/fortnite",
-    "image": "https://hfmanor.com/image/fortnite"
-  },
-  {
-    "title": "Slope 2",
-    "url": "https://hfmanor.com/slope-2",
-    "image": "https://hfmanor.com/image/slope-2"
-  },
-  {
-    "title": "Madalin Stunt Cars 3",
-    "url": "https://hfmanor.com/madalin-stunt-cars-3",
-    "image": "https://hfmanor.com/image/madalin-stunt-cars-3"
-  },
-  {
-    "title": "Geodash",
-    "url": "https://hfmanor.com/geodash",
-    "image": "https://hfmanor.com/image/geodash"
-  },
-  {
-    "title": "Stick Duel Battle",
-    "url": "https://hfmanor.com/stick-duel-battle",
-    "image": "https://hfmanor.com/image/stick-duel-battle"
-  },
-  {
-    "title": "Getaway Shootout",
-    "url": "https://hfmanor.com/getaway-shootout",
-    "image": "https://hfmanor.com/image/getaway-shootout"
-  },
-  {
-    "title": "Cluster Rush",
-    "url": "https://hfmanor.com/cluster-rush",
-    "image": "https://hfmanor.com/image/cluster-rush"
-  },
-  {
-    "title": "Tunnel Rush",
-    "url": "https://hfmanor.com/tunnel-rush",
-    "image": "https://hfmanor.com/image/tunnel-rush"
-  },
-  {
-    "title": "Tiny Fishing",
-    "url": "https://hfmanor.com/tiny-fishing",
-    "image": "https://hfmanor.com/image/tiny-fishing"
-  },
-  {
-    "title": "Pixel Gun Survival",
-    "url": "https://hfmanor.com/pixel-gun-survival",
-    "image": "https://hfmanor.com/image/pixel-gun-survival"
-  },
-  {
-    "title": "Aquapark Slides",
-    "url": "https://hfmanor.com/aquapark-slides",
-    "image": "https://hfmanor.com/image/aquapark-slides"
-  },
-  {
-    "title": "Getting Over It",
-    "url": "https://hfmanor.com/getting-over-it",
-    "image": "https://hfmanor.com/image/getting-over-it"
-  },
-  {
-    "title": "Rocket League",
-    "url": "https://hfmanor.com/Rocket-League",
-    "image": "https://hfmanor.com/image/Rocket-League"
-  },
-  {
-    "title": "Doodle Jump",
-    "url": "https://hfmanor.com/doodle-jump",
-    "image": "https://hfmanor.com/image/doodle-jump"
-  },
-  {
-    "title": "Merge Round Racers",
-    "url": "https://hfmanor.com/merge-round-racers",
-    "image": "https://hfmanor.com/image/merge-round-racers"
-  },
-  {
-    "title": "Bloxors",
-    "url": "https://hfmanor.com/bloxors",
-    "image": "https://hfmanor.com/image/bloxors"
-  },
-  {
-    "title": "Temple Run 2",
-    "url": "https://hfmanor.com/temple-run-2",
-    "image": "https://hfmanor.com/image/temple-run-2"
-  },
-  {
-    "title": "Google Feud",
-    "url": "https://hfmanor.com/google-feud",
-    "image": "https://hfmanor.com/image/google-feud"
-  },
-  {
-    "title": "Drift Boss",
-    "url": "https://hfmanor.com/drift-boss",
-    "image": "https://hfmanor.com/image/drift-boss"
-  },
-  {
-    "title": "Soccer Random",
-    "url": "https://hfmanor.com/soccer-random",
-    "image": "https://hfmanor.com/image/soccer-random"
-  },
-  {
-    "title": "Moto X3M Pool",
-    "url": "https://hfmanor.com/moto-X3M-pool",
-    "image": "https://hfmanor.com/image/moto-X3M-pool"
-  },
-  {
-    "title": "Vex6",
-    "url": "https://hfmanor.com/vex6",
-    "image": "https://hfmanor.com/image/vex6"
-  },
-  {
-    "title": "Blockpost",
-    "url": "https://hfmanor.com/blockpost",
-    "image": "https://hfmanor.com/image/blockpost"
-  },
-  {
-    "title": "Tanuki Sunset",
-    "url": "https://hfmanor.com/tanuki-sunset",
-    "image": "https://hfmanor.com/image/tanuki-sunset"
-  },
-  {
-    "title": "Crossyroad",
-    "url": "https://hfmanor.com/crossyroad",
-    "image": "https://hfmanor.com/image/crossyroad"
-  },
-  {
-    "title": "Volley Random",
-    "url": "https://hfmanor.com/volley-random",
-    "image": "https://hfmanor.com/image/volley-random"
-  },
   {
     "title": "2048",
-    "url": "https://hfmanor.com/2048",
-    "image": "https://hfmanor.com/image/2048"
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/2048/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/2048/icon.png"
   },
   {
-    "title": "Monster Tracks",
-    "url": "https://hfmanor.com/monster-tracks",
-    "image": "https://hfmanor.com/image/monster-tracks"
-  },
-  {
-    "title": "Monkey Mart",
-    "url": "https://hfmanor.com/Monkey Mart",
-    "image": "https://hfmanor.com/image/Monkey Mart"
-  },
-  {
-    "title": "Baldis Basics",
-    "url": "https://hfmanor.com/baldis-basics",
-    "image": "https://hfmanor.com/image/baldis-basics"
-  },
-  {
-    "title": "Worlds Hardest Game 2",
-    "url": "https://hfmanor.com/worlds-hardest-game-2",
-    "image": "https://hfmanor.com/image/worlds-hardest-game-2"
-  },
-  {
-    "title": "Krunker",
-    "url": "https://hfmanor.com/krunker",
-    "image": "https://hfmanor.com/image/krunker"
-  },
-  {
-    "title": "Drive Mad",
-    "url": "https://hfmanor.com/drive-mad",
-    "image": "https://hfmanor.com/image/drive-mad"
-  },
-  {
-    "title": "Draw The Hill",
-    "url": "https://hfmanor.com/draw-the-hill",
-    "image": "https://hfmanor.com/image/draw-the-hill"
-  },
-  {
-    "title": "Sm64",
-    "url": "https://hfmanor.com/sm64",
-    "image": "https://hfmanor.com/image/sm64"
-  },
-  {
-    "title": "Ducklife4",
-    "url": "https://hfmanor.com/ducklife4",
-    "image": "https://hfmanor.com/image/ducklife4"
-  },
-  {
-    "title": "Tactical Weapon Pack 2",
-    "url": "https://hfmanor.com/tactical-weapon-pack-2",
-    "image": "https://hfmanor.com/image/tactical-weapon-pack-2"
-  },
-  {
-    "title": "Scrapmetal",
-    "url": "https://hfmanor.com/scrapmetal",
-    "image": "https://hfmanor.com/image/scrapmetal"
-  },
-  {
-    "title": "Ovo",
-    "url": "https://hfmanor.com/ovo",
-    "image": "https://hfmanor.com/image/ovo"
-  },
-  {
-    "title": "Stealingthediamond",
-    "url": "https://hfmanor.com/stealingthediamond",
-    "image": "https://hfmanor.com/image/stealingthediamond"
-  },
-  {
-    "title": "Jetpack Joyride",
-    "url": "https://hfmanor.com/jetpack-joyride",
-    "image": "https://hfmanor.com/image/jetpack-joyride"
-  },
-  {
-    "title": "Fnaw",
-    "url": "https://hfmanor.com/fnaw",
-    "image": "https://hfmanor.com/image/fnaw"
-  },
-  {
-    "title": "Run 2",
-    "url": "https://hfmanor.com/Run 2",
-    "image": "https://hfmanor.com/image/Run 2"
-  },
-  {
-    "title": "Paper.io 2",
-    "url": "https://hfmanor.com/Paper.io 2",
-    "image": "https://hfmanor.com/image/Paper.io 2"
-  },
-  {
-    "title": "Moto X3M Spooky",
-    "url": "https://hfmanor.com/moto-X3M-spooky",
-    "image": "https://hfmanor.com/image/moto-X3M-spooky"
-  },
-  {
-    "title": "Backrooms",
-    "url": "https://hfmanor.com/backrooms",
-    "image": "https://hfmanor.com/image/backrooms"
-  },
-  {
-    "title": "Five Nights At Freddy 1",
-    "url": "https://hfmanor.com/five-nights-at-freddy-1",
-    "image": "https://hfmanor.com/image/five-nights-at-freddy-1"
-  },
-  {
-    "title": "Tank Trouble 2",
-    "url": "https://hfmanor.com/tank-trouble-2",
-    "image": "https://hfmanor.com/image/tank-trouble-2"
-  },
-  {
-    "title": "Snowbattle",
-    "url": "https://hfmanor.com/snowbattle",
-    "image": "https://hfmanor.com/image/snowbattle"
-  },
-  {
-    "title": "Run",
-    "url": "https://hfmanor.com/run",
-    "image": "https://hfmanor.com/image/run"
-  },
-  {
-    "title": "Santy Is Home",
-    "url": "https://hfmanor.com/santy-is-home",
-    "image": "https://hfmanor.com/image/santy-is-home"
-  },
-  {
-    "title": "Rooftop Snipers",
-    "url": "https://hfmanor.com/rooftop-snipers",
-    "image": "https://hfmanor.com/image/rooftop-snipers"
-  },
-  {
-    "title": "Chrome Dino",
-    "url": "https://hfmanor.com/chrome-dino",
-    "image": "https://hfmanor.com/image/chrome-dino"
-  },
-  {
-    "title": "Hackertype",
-    "url": "https://hfmanor.com/hackertype",
-    "image": "https://hfmanor.com/image/hackertype"
-  },
-  {
-    "title": "Death Run 3d",
-    "url": "https://hfmanor.com/death-run-3d",
-    "image": "https://hfmanor.com/image/death-run-3d"
-  },
-  {
-    "title": "Sort The Court",
-    "url": "https://hfmanor.com/sort-the-court",
-    "image": "https://hfmanor.com/image/sort-the-court"
-  },
-  {
-    "title": "Grand Shift Auto",
-    "url": "https://hfmanor.com/grand-shift-auto",
-    "image": "https://hfmanor.com/image/grand-shift-auto"
-  },
-  {
-    "title": "Sushi Unroll",
-    "url": "https://hfmanor.com/sushi-unroll",
-    "image": "https://hfmanor.com/image/sushi-unroll"
+    "title": "1v1.lol",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/1v1lol/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/1v1lol/icon.png"
   },
   {
     "title": "10 Minutes Till Dawn",
-    "url": "https://hfmanor.com/10-minutes-till-dawn",
-    "image": "https://hfmanor.com/image/10-minutes-till-dawn"
-  },
-  {
-    "title": "Zombs Royale",
-    "url": "https://hfmanor.com/zombs-royale",
-    "image": "https://hfmanor.com/image/zombs-royale"
-  },
-  {
-    "title": "Miniputt",
-    "url": "https://hfmanor.com/miniputt",
-    "image": "https://hfmanor.com/image/miniputt"
-  },
-  {
-    "title": "Dragon Vs Bricks",
-    "url": "https://hfmanor.com/dragon-vs-bricks",
-    "image": "https://hfmanor.com/image/dragon-vs-bricks"
-  },
-  {
-    "title": "Drift Hunters",
-    "url": "https://hfmanor.com/drift-hunters",
-    "image": "https://hfmanor.com/image/drift-hunters"
-  },
-  {
-    "title": "Gun Spin",
-    "url": "https://hfmanor.com/gun-spin",
-    "image": "https://hfmanor.com/image/gun-spin"
-  },
-  {
-    "title": "Backrooms 2d",
-    "url": "https://hfmanor.com/backrooms-2d",
-    "image": "https://hfmanor.com/image/backrooms-2d"
-  },
-  {
-    "title": "Just Fall",
-    "url": "https://hfmanor.com/just-fall",
-    "image": "https://hfmanor.com/image/just-fall"
-  },
-  {
-    "title": "Dumbwaystodie",
-    "url": "https://hfmanor.com/dumbwaystodie",
-    "image": "https://hfmanor.com/image/dumbwaystodie"
-  },
-  {
-    "title": "Happy Wheels",
-    "url": "https://hfmanor.com/happy-wheels",
-    "image": "https://hfmanor.com/image/happy-wheels"
-  },
-  {
-    "title": "Funny Shooter 2",
-    "url": "https://hfmanor.com/funny-shooter-2",
-    "image": "https://hfmanor.com/image/funny-shooter-2"
-  },
-  {
-    "title": "Noob Steve Parkour",
-    "url": "https://hfmanor.com/noob-steve-parkour",
-    "image": "https://hfmanor.com/image/noob-steve-parkour"
-  },
-  {
-    "title": "Shell Shockers",
-    "url": "https://hfmanor.com/shell-shockers",
-    "image": "https://hfmanor.com/image/shell-shockers"
-  },
-  {
-    "title": "Vex5",
-    "url": "https://hfmanor.com/vex5",
-    "image": "https://hfmanor.com/image/vex5"
-  },
-  {
-    "title": "The Final Earth 2",
-    "url": "https://hfmanor.com/the-final-earth-2",
-    "image": "https://hfmanor.com/image/the-final-earth-2"
-  },
-  {
-    "title": "Hungry Lamu",
-    "url": "https://hfmanor.com/hungry-lamu",
-    "image": "https://hfmanor.com/image/hungry-lamu"
-  },
-  {
-    "title": "Csgo Clicker",
-    "url": "https://hfmanor.com/csgo-clicker",
-    "image": "https://hfmanor.com/image/csgo-clicker"
-  },
-  {
-    "title": "Vex7",
-    "url": "https://hfmanor.com/vex7",
-    "image": "https://hfmanor.com/image/vex7"
-  },
-  {
-    "title": "The Hotel",
-    "url": "https://hfmanor.com/the-hotel",
-    "image": "https://hfmanor.com/image/the-hotel"
-  },
-  {
-    "title": "A Small World Cup",
-    "url": "https://hfmanor.com/a-small-world-cup",
-    "image": "https://hfmanor.com/image/a-small-world-cup"
-  },
-  {
-    "title": "Five Nights At Freddy 2",
-    "url": "https://hfmanor.com/five-nights-at-freddy-2",
-    "image": "https://hfmanor.com/image/five-nights-at-freddy-2"
-  },
-  {
-    "title": "Burger And Frights",
-    "url": "https://hfmanor.com/burger-and-frights",
-    "image": "https://hfmanor.com/image/burger-and-frights"
-  },
-  {
-    "title": "Sandboxels",
-    "url": "https://hfmanor.com/sandboxels",
-    "image": "https://hfmanor.com/image/sandboxels"
-  },
-  {
-    "title": "Stick Merge",
-    "url": "https://hfmanor.com/stick-merge",
-    "image": "https://hfmanor.com/image/stick-merge"
-  },
-  {
-    "title": "Friday Night Funkin'",
-    "url": "https://hfmanor.com/Friday Night Funkin'",
-    "image": "https://hfmanor.com/image/Friday Night Funkin'"
-  },
-  {
-    "title": "Meme2048",
-    "url": "https://hfmanor.com/meme2048",
-    "image": "https://hfmanor.com/image/meme2048"
-  },
-  {
-    "title": "Smokingbarrels",
-    "url": "https://hfmanor.com/smokingbarrels",
-    "image": "https://hfmanor.com/image/smokingbarrels"
-  },
-  {
-    "title": "Call Of Ops",
-    "url": "https://hfmanor.com/call-of-ops",
-    "image": "https://hfmanor.com/image/call-of-ops"
-  },
-  {
-    "title": "Paper.io 1",
-    "url": "https://hfmanor.com/paper.io-1",
-    "image": "https://hfmanor.com/image/paper.io-1"
-  },
-  {
-    "title": "Time Shooter 3",
-    "url": "https://hfmanor.com/time-shooter-3",
-    "image": "https://hfmanor.com/image/time-shooter-3"
-  },
-  {
-    "title": "Pixel Combat 2",
-    "url": "https://hfmanor.com/pixel-combat-2",
-    "image": "https://hfmanor.com/image/pixel-combat-2"
-  },
-  {
-    "title": "Moto X3M 2",
-    "url": "https://hfmanor.com/moto-X3M-2",
-    "image": "https://hfmanor.com/image/moto-X3M-2"
-  },
-  {
-    "title": "Idle Shark",
-    "url": "https://hfmanor.com/idle-shark",
-    "image": "https://hfmanor.com/image/idle-shark"
-  },
-  {
-    "title": "Hextris",
-    "url": "https://hfmanor.com/hextris",
-    "image": "https://hfmanor.com/image/hextris"
-  },
-  {
-    "title": "Flashtetris",
-    "url": "https://hfmanor.com/flashtetris",
-    "image": "https://hfmanor.com/image/flashtetris"
-  },
-  {
-    "title": "Hill Climb Racing",
-    "url": "https://hfmanor.com/hill-climb-racing",
-    "image": "https://hfmanor.com/image/hill-climb-racing"
-  },
-  {
-    "title": "Hole.io",
-    "url": "https://hfmanor.com/hole.io",
-    "image": "https://hfmanor.com/image/hole.io"
-  },
-  {
-    "title": "Flappy 2048",
-    "url": "https://hfmanor.com/flappy-2048",
-    "image": "https://hfmanor.com/image/flappy-2048"
-  },
-  {
-    "title": "Unfairmario",
-    "url": "https://hfmanor.com/unfairmario",
-    "image": "https://hfmanor.com/image/unfairmario"
-  },
-  {
-    "title": "Cut The Rope",
-    "url": "https://hfmanor.com/Cut The Rope",
-    "image": "https://hfmanor.com/image/Cut The Rope"
-  },
-  {
-    "title": "Soldier Legend",
-    "url": "https://hfmanor.com/soldier-legend",
-    "image": "https://hfmanor.com/image/soldier-legend"
-  },
-  {
-    "title": "Papery Planes",
-    "url": "https://hfmanor.com/papery-planes",
-    "image": "https://hfmanor.com/image/papery-planes"
-  },
-  {
-    "title": "Idle Breakout",
-    "url": "https://hfmanor.com/idle-breakout",
-    "image": "https://hfmanor.com/image/idle-breakout"
-  },
-  {
-    "title": "Ducklife3",
-    "url": "https://hfmanor.com/ducklife3",
-    "image": "https://hfmanor.com/image/ducklife3"
-  },
-  {
-    "title": "Cars Simulator",
-    "url": "https://hfmanor.com/cars-simulator",
-    "image": "https://hfmanor.com/image/cars-simulator"
-  },
-  {
-    "title": "Knife Master",
-    "url": "https://hfmanor.com/knife-master",
-    "image": "https://hfmanor.com/image/knife-master"
-  },
-  {
-    "title": "Bacon May Die",
-    "url": "https://hfmanor.com/bacon-may-die",
-    "image": "https://hfmanor.com/image/bacon-may-die"
-  },
-  {
-    "title": "Tomb Of The Mask",
-    "url": "https://hfmanor.com/tomb-of-the-mask",
-    "image": "https://hfmanor.com/image/tomb-of-the-mask"
-  },
-  {
-    "title": "Backrooms2d",
-    "url": "https://hfmanor.com/backrooms2d",
-    "image": "https://hfmanor.com/image/backrooms2d"
-  },
-  {
-    "title": "Mario",
-    "url": "https://hfmanor.com/mario",
-    "image": "https://hfmanor.com/image/mario"
-  },
-  {
-    "title": "Tacticalassasin2",
-    "url": "https://hfmanor.com/tacticalassasin2",
-    "image": "https://hfmanor.com/image/tacticalassasin2"
-  },
-  {
-    "title": "Generic Fishing Game",
-    "url": "https://hfmanor.com/generic-fishing-game",
-    "image": "https://hfmanor.com/image/generic-fishing-game"
-  },
-  {
-    "title": "Worlds Hardest Game",
-    "url": "https://hfmanor.com/worlds-hardest-game",
-    "image": "https://hfmanor.com/image/worlds-hardest-game"
-  },
-  {
-    "title": "Riddleschool",
-    "url": "https://hfmanor.com/riddleschool",
-    "image": "https://hfmanor.com/image/riddleschool"
-  },
-  {
-    "title": "Wordle",
-    "url": "https://hfmanor.com/wordle",
-    "image": "https://hfmanor.com/image/wordle"
-  },
-  {
-    "title": "Elasticman",
-    "url": "https://hfmanor.com/elasticman",
-    "image": "https://hfmanor.com/image/elasticman"
-  },
-  {
-    "title": "Glass City",
-    "url": "https://hfmanor.com/glass-city",
-    "image": "https://hfmanor.com/image/glass-city"
-  },
-  {
-    "title": "A Dance Of Fire And Ice",
-    "url": "https://hfmanor.com/a-dance-of-fire-and-ice",
-    "image": "https://hfmanor.com/image/a-dance-of-fire-and-ice"
-  },
-  {
-    "title": "Deal Or No Deal",
-    "url": "https://hfmanor.com/deal-or-no-deal",
-    "image": "https://hfmanor.com/image/deal-or-no-deal"
-  },
-  {
-    "title": "Doom",
-    "url": "https://hfmanor.com/doom",
-    "image": "https://hfmanor.com/image/doom"
-  },
-  {
-    "title": "N Gon",
-    "url": "https://hfmanor.com/n-gon",
-    "image": "https://hfmanor.com/image/n-gon"
-  },
-  {
-    "title": "Angry Sharks",
-    "url": "https://hfmanor.com/angry-sharks",
-    "image": "https://hfmanor.com/image/angry-sharks"
-  },
-  {
-    "title": "Popcat Classic",
-    "url": "https://hfmanor.com/popcat-classic",
-    "image": "https://hfmanor.com/image/popcat-classic"
-  },
-  {
-    "title": "Amazing Rope Police",
-    "url": "https://hfmanor.com/amazing-rope-police",
-    "image": "https://hfmanor.com/image/amazing-rope-police"
-  },
-  {
-    "title": "Spacebar Clicker",
-    "url": "https://hfmanor.com/spacebar-clicker",
-    "image": "https://hfmanor.com/image/spacebar-clicker"
-  },
-  {
-    "title": "Run 3",
-    "url": "https://hfmanor.com/run 3",
-    "image": "https://hfmanor.com/image/run 3"
-  },
-  {
-    "title": "Eaglerjp",
-    "url": "https://hfmanor.com/eaglerjp",
-    "image": "https://hfmanor.com/image/eaglerjp"
-  },
-  {
-    "title": "Balldodge",
-    "url": "https://hfmanor.com/balldodge",
-    "image": "https://hfmanor.com/image/balldodge"
-  },
-  {
-    "title": "Theheist",
-    "url": "https://hfmanor.com/theheist",
-    "image": "https://hfmanor.com/image/theheist"
-  },
-  {
-    "title": "Moto X3M Winter",
-    "url": "https://hfmanor.com/moto-X3M-winter",
-    "image": "https://hfmanor.com/image/moto-X3M-winter"
-  },
-  {
-    "title": "Stickman Golf",
-    "url": "https://hfmanor.com/stickman-golf",
-    "image": "https://hfmanor.com/image/stickman-golf"
-  },
-  {
-    "title": "Happy Hop",
-    "url": "https://hfmanor.com/happy-hop",
-    "image": "https://hfmanor.com/image/happy-hop"
-  },
-  {
-    "title": "Cut The Rope Holiday",
-    "url": "https://hfmanor.com/Cut The Rope Holiday",
-    "image": "https://hfmanor.com/image/Cut The Rope Holiday"
-  },
-  {
-    "title": "Dante",
-    "url": "https://hfmanor.com/dante",
-    "image": "https://hfmanor.com/image/dante"
-  },
-  {
-    "title": "Tosstheturtle",
-    "url": "https://hfmanor.com/tosstheturtle",
-    "image": "https://hfmanor.com/image/tosstheturtle"
-  },
-  {
-    "title": "Stack",
-    "url": "https://hfmanor.com/stack",
-    "image": "https://hfmanor.com/image/stack"
-  },
-  {
-    "title": "You Are Bezos",
-    "url": "https://hfmanor.com/you-are-bezos",
-    "image": "https://hfmanor.com/image/you-are-bezos"
-  },
-  {
-    "title": "Bad Ice Cream 3",
-    "url": "https://hfmanor.com/bad-ice-cream-3",
-    "image": "https://hfmanor.com/image/bad-ice-cream-3"
-  },
-  {
-    "title": "Spelunky",
-    "url": "https://hfmanor.com/spelunky",
-    "image": "https://hfmanor.com/image/spelunky"
-  },
-  {
-    "title": "Time Shooter 2",
-    "url": "https://hfmanor.com/time-shooter-2",
-    "image": "https://hfmanor.com/image/time-shooter-2"
-  },
-  {
-    "title": "Awesometanks2",
-    "url": "https://hfmanor.com/awesometanks2",
-    "image": "https://hfmanor.com/image/awesometanks2"
-  },
-  {
-    "title": "Sky Car Stunt",
-    "url": "https://hfmanor.com/sky-car-stunt",
-    "image": "https://hfmanor.com/image/sky-car-stunt"
-  },
-  {
-    "title": "Goodnight",
-    "url": "https://hfmanor.com/goodnight",
-    "image": "https://hfmanor.com/image/goodnight"
-  },
-  {
-    "title": "Infinite Craft",
-    "url": "https://hfmanor.com/infinite-craft",
-    "image": "https://hfmanor.com/image/infinite-craft"
-  },
-  {
-    "title": "Earntodie",
-    "url": "https://hfmanor.com/earntodie",
-    "image": "https://hfmanor.com/image/earntodie"
-  },
-  {
-    "title": "Tube Jumpers",
-    "url": "https://hfmanor.com/tube-jumpers",
-    "image": "https://hfmanor.com/image/tube-jumpers"
-  },
-  {
-    "title": "Hoops",
-    "url": "https://hfmanor.com/hoops",
-    "image": "https://hfmanor.com/image/hoops"
-  },
-  {
-    "title": "Cupcake2048",
-    "url": "https://hfmanor.com/cupcake2048",
-    "image": "https://hfmanor.com/image/cupcake2048"
-  },
-  {
-    "title": "Impossiblequiz",
-    "url": "https://hfmanor.com/impossiblequiz",
-    "image": "https://hfmanor.com/image/impossiblequiz"
-  },
-  {
-    "title": "Rolly Vortex",
-    "url": "https://hfmanor.com/rolly-vortex",
-    "image": "https://hfmanor.com/image/rolly-vortex"
-  },
-  {
-    "title": "Checkers",
-    "url": "https://hfmanor.com/checkers",
-    "image": "https://hfmanor.com/image/checkers"
-  },
-  {
-    "title": "Kitchen Gun Game",
-    "url": "https://hfmanor.com/kitchen-gun-game",
-    "image": "https://hfmanor.com/image/kitchen-gun-game"
-  },
-  {
-    "title": "Bottle Flip 3d",
-    "url": "https://hfmanor.com/bottle-flip-3d",
-    "image": "https://hfmanor.com/image/bottle-flip-3d"
-  },
-  {
-    "title": "Bobtherobber2",
-    "url": "https://hfmanor.com/bobtherobber2",
-    "image": "https://hfmanor.com/image/bobtherobber2"
-  },
-  {
-    "title": "Robuxclicker",
-    "url": "https://hfmanor.com/robuxclicker",
-    "image": "https://hfmanor.com/image/robuxclicker"
-  },
-  {
-    "title": "Precision Client",
-    "url": "https://hfmanor.com/precision-client",
-    "image": "https://hfmanor.com/image/precision-client"
-  },
-  {
-    "title": "Subway Surfers Ny",
-    "url": "https://hfmanor.com/subway-surfers-ny",
-    "image": "https://hfmanor.com/image/subway-surfers-ny"
-  },
-  {
-    "title": "Alienhominid",
-    "url": "https://hfmanor.com/alienhominid",
-    "image": "https://hfmanor.com/image/alienhominid"
-  },
-  {
-    "title": "Circlo",
-    "url": "https://hfmanor.com/circlo",
-    "image": "https://hfmanor.com/image/circlo"
-  },
-  {
-    "title": "Stickwar",
-    "url": "https://hfmanor.com/stickwar",
-    "image": "https://hfmanor.com/image/stickwar"
-  },
-  {
-    "title": "Papasburgeria",
-    "url": "https://hfmanor.com/papasburgeria",
-    "image": "https://hfmanor.com/image/papasburgeria"
-  },
-  {
-    "title": "Frying Nemo",
-    "url": "https://hfmanor.com/frying-nemo",
-    "image": "https://hfmanor.com/image/frying-nemo"
-  },
-  {
-    "title": "Bloons Tower Defense 5",
-    "url": "https://hfmanor.com/Bloons Tower Defense 5",
-    "image": "https://hfmanor.com/image/Bloons Tower Defense 5"
-  },
-  {
-    "title": "HexGL",
-    "url": "https://hfmanor.com/HexGL",
-    "image": "https://hfmanor.com/image/HexGL"
-  },
-  {
-    "title": "Push Your Luck",
-    "url": "https://hfmanor.com/push-your-luck",
-    "image": "https://hfmanor.com/image/push-your-luck"
-  },
-  {
-    "title": "Snowball",
-    "url": "https://hfmanor.com/snowball",
-    "image": "https://hfmanor.com/image/snowball"
-  },
-  {
-    "title": "Slime Rush Td",
-    "url": "https://hfmanor.com/slime-rush-td",
-    "image": "https://hfmanor.com/image/slime-rush-td"
-  },
-  {
-    "title": "Doge2048",
-    "url": "https://hfmanor.com/doge2048",
-    "image": "https://hfmanor.com/image/doge2048"
-  },
-  {
-    "title": "Ltf3",
-    "url": "https://hfmanor.com/ltf3",
-    "image": "https://hfmanor.com/image/ltf3"
-  },
-  {
-    "title": "Push The Square",
-    "url": "https://hfmanor.com/push-the-square",
-    "image": "https://hfmanor.com/image/push-the-square"
-  },
-  {
-    "title": "Bus and subway",
-    "url": "https://hfmanor.com/bus and subway",
-    "image": "https://hfmanor.com/image/bus and subway"
-  },
-  {
-    "title": "Vex4",
-    "url": "https://hfmanor.com/vex4",
-    "image": "https://hfmanor.com/image/vex4"
-  },
-  {
-    "title": "Learntofly2",
-    "url": "https://hfmanor.com/learntofly2",
-    "image": "https://hfmanor.com/image/learntofly2"
-  },
-  {
-    "title": "Thisistheonlylevel",
-    "url": "https://hfmanor.com/thisistheonlylevel",
-    "image": "https://hfmanor.com/image/thisistheonlylevel"
-  },
-  {
-    "title": "Bad Ice Cream 2",
-    "url": "https://hfmanor.com/bad-ice-cream-2",
-    "image": "https://hfmanor.com/image/bad-ice-cream-2"
-  },
-  {
-    "title": "Grindcraft",
-    "url": "https://hfmanor.com/grindcraft",
-    "image": "https://hfmanor.com/image/grindcraft"
-  },
-  {
-    "title": "Riddleschool2",
-    "url": "https://hfmanor.com/riddleschool2",
-    "image": "https://hfmanor.com/image/riddleschool2"
-  },
-  {
-    "title": "Cut The Rope TR",
-    "url": "https://hfmanor.com/Cut The Rope TR",
-    "image": "https://hfmanor.com/image/Cut The Rope TR"
-  },
-  {
-    "title": "Escapingtheprison",
-    "url": "https://hfmanor.com/escapingtheprison",
-    "image": "https://hfmanor.com/image/escapingtheprison"
-  },
-  {
-    "title": "Fruit Ninja",
-    "url": "https://hfmanor.com/fruit-ninja",
-    "image": "https://hfmanor.com/image/fruit-ninja"
-  },
-  {
-    "title": "Stationmeltdown",
-    "url": "https://hfmanor.com/stationmeltdown",
-    "image": "https://hfmanor.com/image/stationmeltdown"
-  },
-  {
-    "title": "Craftmine",
-    "url": "https://hfmanor.com/craftmine",
-    "image": "https://hfmanor.com/image/craftmine"
-  },
-  {
-    "title": "Eel Slap",
-    "url": "https://hfmanor.com/eel-slap",
-    "image": "https://hfmanor.com/image/eel-slap"
-  },
-  {
-    "title": "Portalflash",
-    "url": "https://hfmanor.com/portalflash",
-    "image": "https://hfmanor.com/image/portalflash"
-  },
-  {
-    "title": "Station 141",
-    "url": "https://hfmanor.com/station-141",
-    "image": "https://hfmanor.com/image/station-141"
-  },
-  {
-    "title": "Edge Surf",
-    "url": "https://hfmanor.com/edge-surf",
-    "image": "https://hfmanor.com/image/edge-surf"
-  },
-  {
-    "title": "Fairsquares",
-    "url": "https://hfmanor.com/fairsquares",
-    "image": "https://hfmanor.com/image/fairsquares"
-  },
-  {
-    "title": "Planetlife",
-    "url": "https://hfmanor.com/planetlife",
-    "image": "https://hfmanor.com/image/planetlife"
-  },
-  {
-    "title": "Edgenotfound",
-    "url": "https://hfmanor.com/edgenotfound",
-    "image": "https://hfmanor.com/image/edgenotfound"
-  },
-  {
-    "title": "Slope",
-    "url": "https://hfmanor.com/slope",
-    "image": "https://hfmanor.com/image/slope"
-  },
-  {
-    "title": "Waterworks",
-    "url": "https://hfmanor.com/waterworks",
-    "image": "https://hfmanor.com/image/waterworks"
-  },
-  {
-    "title": "Solitaire",
-    "url": "https://hfmanor.com/solitaire",
-    "image": "https://hfmanor.com/image/solitaire"
-  },
-  {
-    "title": "Bloons Tower Defense",
-    "url": "https://hfmanor.com/Bloons Tower Defense",
-    "image": "https://hfmanor.com/image/Bloons Tower Defense"
-  },
-  {
-    "title": "Wallsmash",
-    "url": "https://hfmanor.com/wallsmash",
-    "image": "https://hfmanor.com/image/wallsmash"
-  },
-  {
-    "title": "Dogeminer2",
-    "url": "https://hfmanor.com/Dogeminer2",
-    "image": "https://hfmanor.com/image/Dogeminer2"
-  },
-  {
-    "title": "Connect3",
-    "url": "https://hfmanor.com/connect3",
-    "image": "https://hfmanor.com/image/connect3"
-  },
-  {
-    "title": "Hexempire",
-    "url": "https://hfmanor.com/hexempire",
-    "image": "https://hfmanor.com/image/hexempire"
-  },
-  {
-    "title": "Adrenalinechallenge",
-    "url": "https://hfmanor.com/adrenalinechallenge",
-    "image": "https://hfmanor.com/image/adrenalinechallenge"
-  },
-  {
-    "title": "Bloons Tower Defense 4",
-    "url": "https://hfmanor.com/Bloons Tower Defense 4",
-    "image": "https://hfmanor.com/image/Bloons Tower Defense 4"
-  },
-  {
-    "title": "Om Bounce",
-    "url": "https://hfmanor.com/om-bounce",
-    "image": "https://hfmanor.com/image/om-bounce"
-  },
-  {
-    "title": "Kittencannon",
-    "url": "https://hfmanor.com/kittencannon",
-    "image": "https://hfmanor.com/image/kittencannon"
-  },
-  {
-    "title": "Flappy plane",
-    "url": "https://hfmanor.com/flappy plane",
-    "image": "https://hfmanor.com/image/flappy plane"
-  },
-  {
-    "title": "Spacegarden",
-    "url": "https://hfmanor.com/spacegarden",
-    "image": "https://hfmanor.com/image/spacegarden"
-  },
-  {
-    "title": "Astray",
-    "url": "https://hfmanor.com/astray",
-    "image": "https://hfmanor.com/image/astray"
-  },
-  {
-    "title": "Tiny Islands",
-    "url": "https://hfmanor.com/tiny-islands",
-    "image": "https://hfmanor.com/image/tiny-islands"
-  },
-  {
-    "title": "Blacholesquare",
-    "url": "https://hfmanor.com/blacholesquare",
-    "image": "https://hfmanor.com/image/blacholesquare"
-  },
-  {
-    "title": "Bonkio",
-    "url": "https://hfmanor.com/bonkio",
-    "image": "https://hfmanor.com/image/bonkio"
-  },
-  {
-    "title": "Defend The Tank",
-    "url": "https://hfmanor.com/defend-the-tank",
-    "image": "https://hfmanor.com/image/defend-the-tank"
-  },
-  {
-    "title": "Matrixrampage",
-    "url": "https://hfmanor.com/matrixrampage",
-    "image": "https://hfmanor.com/image/matrixrampage"
-  },
-  {
-    "title": "Particle Clicker",
-    "url": "https://hfmanor.com/particle-clicker",
-    "image": "https://hfmanor.com/image/particle-clicker"
-  },
-  {
-    "title": "Runner",
-    "url": "https://hfmanor.com/runner",
-    "image": "https://hfmanor.com/image/runner"
-  },
-  {
-    "title": "Level13",
-    "url": "https://hfmanor.com/level13",
-    "image": "https://hfmanor.com/image/level13"
-  },
-  {
-    "title": "Tv Static",
-    "url": "https://hfmanor.com/tv-static",
-    "image": "https://hfmanor.com/image/tv-static"
-  },
-  {
-    "title": "Synesthesia",
-    "url": "https://hfmanor.com/synesthesia",
-    "image": "https://hfmanor.com/image/synesthesia"
-  },
-  {
-    "title": "OfflineParadise",
-    "url": "https://hfmanor.com/OfflineParadise",
-    "image": "https://hfmanor.com/image/OfflineParadise"
-  },
-  {
-    "title": "Minesweeper",
-    "url": "https://hfmanor.com/minesweeper",
-    "image": "https://hfmanor.com/image/minesweeper"
-  },
-  {
-    "title": "Doctor Acorn2",
-    "url": "https://hfmanor.com/doctor-acorn2",
-    "image": "https://hfmanor.com/image/doctor-acorn2"
-  },
-  {
-    "title": "Hardware Tycoon",
-    "url": "https://hfmanor.com/hardware-tycoon",
-    "image": "https://hfmanor.com/image/hardware-tycoon"
-  },
-  {
-    "title": "Rabbit Samurai2",
-    "url": "https://hfmanor.com/rabbit-samurai2",
-    "image": "https://hfmanor.com/image/rabbit-samurai2"
-  },
-  {
-    "title": "Thebattle",
-    "url": "https://hfmanor.com/thebattle",
-    "image": "https://hfmanor.com/image/thebattle"
-  },
-  {
-    "title": "Rolling Forests",
-    "url": "https://hfmanor.com/rolling-forests",
-    "image": "https://hfmanor.com/image/rolling-forests"
-  },
-  {
-    "title": "Exo",
-    "url": "https://hfmanor.com/exo",
-    "image": "https://hfmanor.com/image/exo"
-  },
-  {
-    "title": "Marvinspectrum",
-    "url": "https://hfmanor.com/marvinspectrum",
-    "image": "https://hfmanor.com/image/marvinspectrum"
-  },
-  {
-    "title": "Endlesswar3",
-    "url": "https://hfmanor.com/endlesswar3",
-    "image": "https://hfmanor.com/image/endlesswar3"
-  },
-  {
-    "title": "Twitch Tetris",
-    "url": "https://hfmanor.com/twitch-tetris",
-    "image": "https://hfmanor.com/image/twitch-tetris"
-  },
-  {
-    "title": "Bloons Tower Defense 2",
-    "url": "https://hfmanor.com/Bloons Tower Defense 2",
-    "image": "https://hfmanor.com/image/Bloons Tower Defense 2"
-  },
-  {
-    "title": "Helicopter",
-    "url": "https://hfmanor.com/helicopter",
-    "image": "https://hfmanor.com/image/helicopter"
-  },
-  {
-    "title": "Factoryballs",
-    "url": "https://hfmanor.com/factoryballs",
-    "image": "https://hfmanor.com/image/factoryballs"
-  },
-  {
-    "title": "Go Ball",
-    "url": "https://hfmanor.com/go-ball",
-    "image": "https://hfmanor.com/image/go-ball"
-  },
-  {
-    "title": "Btts",
-    "url": "https://hfmanor.com/btts",
-    "image": "https://hfmanor.com/image/btts"
-  },
-  {
-    "title": "Swerve",
-    "url": "https://hfmanor.com/swerve",
-    "image": "https://hfmanor.com/image/swerve"
-  },
-  {
-    "title": "1",
-    "url": "https://hfmanor.com/1",
-    "image": "https://hfmanor.com/image/1"
-  },
-  {
-    "title": "Wolf2d",
-    "url": "https://hfmanor.com/wolf2d",
-    "image": "https://hfmanor.com/image/wolf2d"
-  },
-  {
-    "title": "DOOMORI",
-    "url": "https://hfmanor.com/DOOMORI",
-    "image": "https://hfmanor.com/image/DOOMORI"
-  },
-  {
-    "title": "Ninjavsevilcorp",
-    "url": "https://hfmanor.com/ninjavsevilcorp",
-    "image": "https://hfmanor.com/image/ninjavsevilcorp"
-  },
-  {
-    "title": "Handshakes",
-    "url": "https://hfmanor.com/handshakes",
-    "image": "https://hfmanor.com/image/handshakes"
-  },
-  {
-    "title": "Fancypantsadventures",
-    "url": "https://hfmanor.com/fancypantsadventures",
-    "image": "https://hfmanor.com/image/fancypantsadventures"
-  },
-  {
-    "title": "Fireboywatergirlforesttemple",
-    "url": "https://hfmanor.com/fireboywatergirlforesttemple",
-    "image": "https://hfmanor.com/image/fireboywatergirlforesttemple"
-  },
-  {
-    "title": "Interactivebuddy",
-    "url": "https://hfmanor.com/interactivebuddy",
-    "image": "https://hfmanor.com/image/interactivebuddy"
-  },
-  {
-    "title": "Shotinthedark",
-    "url": "https://hfmanor.com/shotinthedark",
-    "image": "https://hfmanor.com/image/shotinthedark"
-  },
-  {
-    "title": "Stack Bump 3d",
-    "url": "https://hfmanor.com/stack-bump-3d",
-    "image": "https://hfmanor.com/image/stack-bump-3d"
-  },
-  {
-    "title": "Zigzag",
-    "url": "https://hfmanor.com/zigzag",
-    "image": "https://hfmanor.com/image/zigzag"
-  },
-  {
-    "title": "Iceagebaby",
-    "url": "https://hfmanor.com/iceagebaby",
-    "image": "https://hfmanor.com/image/iceagebaby"
-  },
-  {
-    "title": "Rabbit Samurai",
-    "url": "https://hfmanor.com/rabbit-samurai",
-    "image": "https://hfmanor.com/image/rabbit-samurai"
-  },
-  {
-    "title": "Duke Nukem 2",
-    "url": "https://hfmanor.com/duke-nukem-2",
-    "image": "https://hfmanor.com/image/duke-nukem-2"
-  },
-  {
-    "title": "Space Company",
-    "url": "https://hfmanor.com/space-company",
-    "image": "https://hfmanor.com/image/space-company"
-  },
-  {
-    "title": "Ninja",
-    "url": "https://hfmanor.com/ninja",
-    "image": "https://hfmanor.com/image/ninja"
-  },
-  {
-    "title": "Amidst The Clouds",
-    "url": "https://hfmanor.com/amidst-the-clouds",
-    "image": "https://hfmanor.com/image/amidst-the-clouds"
-  },
-  {
-    "title": "Wolf3d",
-    "url": "https://hfmanor.com/wolf3d",
-    "image": "https://hfmanor.com/image/wolf3d"
-  },
-  {
-    "title": "Stormthehouse2",
-    "url": "https://hfmanor.com/stormthehouse2",
-    "image": "https://hfmanor.com/image/stormthehouse2"
-  },
-  {
-    "title": "Xx142 B2exe",
-    "url": "https://hfmanor.com/xx142-b2exe",
-    "image": "https://hfmanor.com/image/xx142-b2exe"
-  },
-  {
-    "title": "Supermarioconstruct",
-    "url": "https://hfmanor.com/supermarioconstruct",
-    "image": "https://hfmanor.com/image/supermarioconstruct"
-  },
-  {
-    "title": "Vex3",
-    "url": "https://hfmanor.com/vex3",
-    "image": "https://hfmanor.com/image/vex3"
-  },
-  {
-    "title": "Greybox",
-    "url": "https://hfmanor.com/greybox",
-    "image": "https://hfmanor.com/image/greybox"
-  },
-  {
-    "title": "Google Snake",
-    "url": "https://hfmanor.com/google-snake",
-    "image": "https://hfmanor.com/image/google-snake"
-  },
-  {
-    "title": "X Trial Racing",
-    "url": "https://hfmanor.com/x-trial-racing",
-    "image": "https://hfmanor.com/image/x-trial-racing"
-  },
-  {
-    "title": "Dodge",
-    "url": "https://hfmanor.com/dodge",
-    "image": "https://hfmanor.com/image/dodge"
-  },
-  {
-    "title": "Missiles",
-    "url": "https://hfmanor.com/missiles",
-    "image": "https://hfmanor.com/image/missiles"
-  },
-  {
-    "title": "The Final Earth",
-    "url": "https://hfmanor.com/the-final-earth",
-    "image": "https://hfmanor.com/image/the-final-earth"
-  },
-  {
-    "title": "Superautopets",
-    "url": "https://hfmanor.com/superautopets",
-    "image": "https://hfmanor.com/image/superautopets"
-  },
-  {
-    "title": "Vex2",
-    "url": "https://hfmanor.com/vex2",
-    "image": "https://hfmanor.com/image/vex2"
-  },
-  {
-    "title": "Townscaper",
-    "url": "https://hfmanor.com/townscaper",
-    "image": "https://hfmanor.com/image/townscaper"
-  },
-  {
-    "title": "My Rusty Submarine",
-    "url": "https://hfmanor.com/my-rusty-submarine",
-    "image": "https://hfmanor.com/image/my-rusty-submarine"
-  },
-  {
-    "title": "Canyon Defense",
-    "url": "https://hfmanor.com/canyon-defense",
-    "image": "https://hfmanor.com/image/canyon-defense"
-  },
-  {
-    "title": "Align 4",
-    "url": "https://hfmanor.com/align-4",
-    "image": "https://hfmanor.com/image/align-4"
-  },
-  {
-    "title": "Cell Machine",
-    "url": "https://hfmanor.com/cell-machine",
-    "image": "https://hfmanor.com/image/cell-machine"
-  },
-  {
-    "title": "Overwatch",
-    "url": "https://hfmanor.com/overwatch",
-    "image": "https://hfmanor.com/image/overwatch"
-  },
-  {
-    "title": "Polybranch",
-    "url": "https://hfmanor.com/polybranch",
-    "image": "https://hfmanor.com/image/polybranch"
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/10-minutes-till-dawn/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/10-minutes-till-dawn/icon.png"
   },
   {
     "title": "100ng",
-    "url": "https://hfmanor.com/100ng",
-    "image": "https://hfmanor.com/image/100ng"
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/100ng/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/100ng/icon.png"
   },
   {
-    "title": "Scratcharia",
-    "url": "https://hfmanor.com/scratcharia",
-    "image": "https://hfmanor.com/image/scratcharia"
-  },
-  {
-    "title": "Piclient",
-    "url": "https://hfmanor.com/piclient",
-    "image": "https://hfmanor.com/image/piclient"
-  },
-  {
-    "title": "Highrisehop",
-    "url": "https://hfmanor.com/highrisehop",
-    "image": "https://hfmanor.com/image/highrisehop"
-  },
-  {
-    "title": "Ns Shaft",
-    "url": "https://hfmanor.com/ns-shaft",
-    "image": "https://hfmanor.com/image/ns-shaft"
-  },
-  {
-    "title": "Cannon Basketball 4",
-    "url": "https://hfmanor.com/cannon-basketball-4",
-    "image": "https://hfmanor.com/image/cannon-basketball-4"
-  },
-  {
-    "title": "Stickman Boost",
-    "url": "https://hfmanor.com/stickman-boost",
-    "image": "https://hfmanor.com/image/stickman-boost"
-  },
-  {
-    "title": "Boxhead2play",
-    "url": "https://hfmanor.com/boxhead2play",
-    "image": "https://hfmanor.com/image/boxhead2play"
-  },
-  {
-    "title": "Learntofly",
-    "url": "https://hfmanor.com/learntofly",
-    "image": "https://hfmanor.com/image/learntofly"
-  },
-  {
-    "title": "Weavesilk",
-    "url": "https://hfmanor.com/weavesilk",
-    "image": "https://hfmanor.com/image/weavesilk"
-  },
-  {
-    "title": "Riddletransfer",
-    "url": "https://hfmanor.com/riddletransfer",
-    "image": "https://hfmanor.com/image/riddletransfer"
-  },
-  {
-    "title": "Evolution",
-    "url": "https://hfmanor.com/evolution",
-    "image": "https://hfmanor.com/image/evolution"
-  },
-  {
-    "title": "Cubefield",
-    "url": "https://hfmanor.com/cubefield",
-    "image": "https://hfmanor.com/image/cubefield"
-  },
-  {
-    "title": "Riddletransfer2",
-    "url": "https://hfmanor.com/riddletransfer2",
-    "image": "https://hfmanor.com/image/riddletransfer2"
-  },
-  {
-    "title": "Legacyflashgames",
-    "url": "https://hfmanor.com/legacyflashgames",
-    "image": "https://hfmanor.com/image/legacyflashgames"
-  },
-  {
-    "title": "Champion Island",
-    "url": "https://hfmanor.com/champion-island",
-    "image": "https://hfmanor.com/image/champion-island"
-  },
-  {
-    "title": "Kirkaio",
-    "url": "https://hfmanor.com/kirkaio",
-    "image": "https://hfmanor.com/image/kirkaio"
-  },
-  {
-    "title": "Shogunshowdown",
-    "url": "https://hfmanor.com/shogunshowdown",
-    "image": "https://hfmanor.com/image/shogunshowdown"
-  },
-  {
-    "title": "Riddleschool5",
-    "url": "https://hfmanor.com/riddleschool5",
-    "image": "https://hfmanor.com/image/riddleschool5"
-  },
-  {
-    "title": "Flippy Fish",
-    "url": "https://hfmanor.com/flippy-fish",
-    "image": "https://hfmanor.com/image/flippy-fish"
-  },
-  {
-    "title": "Fantasy Dash",
-    "url": "https://hfmanor.com/fantasy-dash",
-    "image": "https://hfmanor.com/image/fantasy-dash"
-  },
-  {
-    "title": "Iron dash",
-    "url": "https://hfmanor.com/iron dash",
-    "image": "https://hfmanor.com/image/iron dash"
-  },
-  {
-    "title": "Creativekillchamber",
-    "url": "https://hfmanor.com/creativekillchamber",
-    "image": "https://hfmanor.com/image/creativekillchamber"
-  },
-  {
-    "title": "Core Ball",
-    "url": "https://hfmanor.com/core-ball",
-    "image": "https://hfmanor.com/image/core-ball"
-  },
-  {
-    "title": "Avalanche",
-    "url": "https://hfmanor.com/avalanche",
-    "image": "https://hfmanor.com/image/avalanche"
-  },
-  {
-    "title": "Georgeandtheprinter",
-    "url": "https://hfmanor.com/georgeandtheprinter",
-    "image": "https://hfmanor.com/image/georgeandtheprinter"
-  },
-  {
-    "title": "Pigeon Ascent",
-    "url": "https://hfmanor.com/pigeon-ascent",
-    "image": "https://hfmanor.com/image/pigeon-ascent"
-  },
-  {
-    "title": "Gravity Soccer",
-    "url": "https://hfmanor.com/gravity-soccer",
-    "image": "https://hfmanor.com/image/gravity-soccer"
-  },
-  {
-    "title": "Ages Of Conflict",
-    "url": "https://hfmanor.com/ages-of-conflict",
-    "image": "https://hfmanor.com/image/ages-of-conflict"
-  },
-  {
-    "title": "Riddleschool4",
-    "url": "https://hfmanor.com/riddleschool4",
-    "image": "https://hfmanor.com/image/riddleschool4"
-  },
-  {
-    "title": "Adarkroom",
-    "url": "https://hfmanor.com/adarkroom",
-    "image": "https://hfmanor.com/image/adarkroom"
-  },
-  {
-    "title": "Riddleschool3",
-    "url": "https://hfmanor.com/riddleschool3",
-    "image": "https://hfmanor.com/image/riddleschool3"
-  },
-  {
-    "title": "Eggy Car",
-    "url": "https://hfmanor.com/eggy-car",
-    "image": "https://hfmanor.com/image/eggy-car"
-  },
-  {
-    "title": "Yohoho",
-    "url": "https://hfmanor.com/yohoho",
-    "image": "https://hfmanor.com/image/yohoho"
-  },
-  {
-    "title": "9007199254740992",
-    "url": "https://hfmanor.com/9007199254740992",
-    "image": "https://hfmanor.com/image/9007199254740992"
-  },
-  {
-    "title": "Mindustry",
-    "url": "https://hfmanor.com/mindustry",
-    "image": "https://hfmanor.com/image/mindustry"
+    "title": "1v1 Space",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/1v1space/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/1v1space/icon.png"
   },
   {
     "title": "2048 Multitask",
-    "url": "https://hfmanor.com/2048-multitask",
-    "image": "https://hfmanor.com/image/2048-multitask"
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/2048-multitask/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/2048-multitask/icon.png"
   },
   {
-    "title": "Chill Radio",
-    "url": "https://hfmanor.com/chill-radio",
-    "image": "https://hfmanor.com/image/chill-radio"
+    "title": "9007199254740992",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/9007199254740992/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/9007199254740992/icon.png"
   },
   {
-    "title": "There Is No Game",
-    "url": "https://hfmanor.com/there-is-no-game",
-    "image": "https://hfmanor.com/image/there-is-no-game"
+    "title": "99 Balls",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/99balls/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/99balls/icon.png"
   },
   {
-    "title": "Throwrocks",
-    "url": "https://hfmanor.com/throwrocks",
-    "image": "https://hfmanor.com/image/throwrocks"
+    "title": "A Dance of Fire and Ice",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/a-dance-of-fire-and-ice/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/a-dance-of-fire-and-ice/icon.png"
   },
   {
-    "title": "Ballistic Chickens",
-    "url": "https://hfmanor.com/ballistic-chickens",
-    "image": "https://hfmanor.com/image/ballistic-chickens"
+    "title": "Achievement Unlocked",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/achievementunlocked/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/achievementunlocked/icon.png"
   },
   {
-    "title": "Linerider",
-    "url": "https://hfmanor.com/linerider",
-    "image": "https://hfmanor.com/image/linerider"
+    "title": "A Dark Room",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/adarkroom/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/adarkroom/icon.png"
   },
   {
-    "title": "Bigredbutton",
-    "url": "https://hfmanor.com/bigredbutton",
-    "image": "https://hfmanor.com/image/bigredbutton"
-  },
-  {
-    "title": "Resent Client",
-    "url": "https://hfmanor.com/resent-client",
-    "image": "https://hfmanor.com/image/resent-client"
-  },
-  {
-    "title": "Trimps",
-    "url": "https://hfmanor.com/Trimps",
-    "image": "https://hfmanor.com/image/Trimps"
-  },
-  {
-    "title": "CMM Client",
-    "url": "https://hfmanor.com/CMM Client",
-    "image": "https://hfmanor.com/image/CMM Client"
-  },
-  {
-    "title": "Plants vs zombies 1",
-    "url": "https://hfmanor.com/plants vs zombies 1",
-    "image": "https://hfmanor.com/image/plants vs zombies 1"
-  },
-  {
-    "title": "Pandemic2",
-    "url": "https://hfmanor.com/pandemic2",
-    "image": "https://hfmanor.com/image/pandemic2"
-  },
-  {
-    "title": "99balls",
-    "url": "https://hfmanor.com/99balls",
-    "image": "https://hfmanor.com/image/99balls"
-  },
-  {
-    "title": "Yoshifabrication",
-    "url": "https://hfmanor.com/yoshifabrication",
-    "image": "https://hfmanor.com/image/yoshifabrication"
-  },
-  {
-    "title": "Gimme The Airpod",
-    "url": "https://hfmanor.com/gimme-the-airpod",
-    "image": "https://hfmanor.com/image/gimme-the-airpod"
-  },
-  {
-    "title": "ShapeShootout",
-    "url": "https://hfmanor.com/ShapeShootout",
-    "image": "https://hfmanor.com/image/ShapeShootout"
-  },
-  {
-    "title": "Webretro",
-    "url": "https://hfmanor.com/webretro",
-    "image": "https://hfmanor.com/image/webretro"
-  },
-  {
-    "title": "Breakingthebank",
-    "url": "https://hfmanor.com/breakingthebank",
-    "image": "https://hfmanor.com/image/breakingthebank"
-  },
-  {
-    "title": "Protektor",
-    "url": "https://hfmanor.com/protektor",
-    "image": "https://hfmanor.com/image/protektor"
-  },
-  {
-    "title": "Championarcher",
-    "url": "https://hfmanor.com/championarcher",
-    "image": "https://hfmanor.com/image/championarcher"
-  },
-  {
-    "title": "Just One Boss",
-    "url": "https://hfmanor.com/just-one-boss",
-    "image": "https://hfmanor.com/image/just-one-boss"
-  },
-  {
-    "title": "Blackknight",
-    "url": "https://hfmanor.com/blackknight",
-    "image": "https://hfmanor.com/image/blackknight"
-  },
-  {
-    "title": "Slope Ball",
-    "url": "https://hfmanor.com/slope-ball",
-    "image": "https://hfmanor.com/image/slope-ball"
-  },
-  {
-    "title": "Fake Virus",
-    "url": "https://hfmanor.com/fake-virus",
-    "image": "https://hfmanor.com/image/fake-virus"
-  },
-  {
-    "title": "Fleeingthecomplex",
-    "url": "https://hfmanor.com/fleeingthecomplex",
-    "image": "https://hfmanor.com/image/fleeingthecomplex"
-  },
-  {
-    "title": "Evil Glitch",
-    "url": "https://hfmanor.com/evil-glitch",
-    "image": "https://hfmanor.com/image/evil-glitch"
+    "title": "Adrenaline Challenge",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/adrenalinechallenge/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/adrenalinechallenge/icon.png"
   },
   {
     "title": "Adventure Drivers",
-    "url": "https://hfmanor.com/adventure-drivers",
-    "image": "https://hfmanor.com/image/adventure-drivers"
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/adventure-drivers/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/adventure-drivers/icon.png"
   },
   {
-    "title": "Battleforgondor",
-    "url": "https://hfmanor.com/battleforgondor",
-    "image": "https://hfmanor.com/image/battleforgondor"
+    "title": "Ages of Conflict",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/ages-of-conflict/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/ages-of-conflict/icon.png"
   },
   {
-    "title": "Sleepingbeauty",
-    "url": "https://hfmanor.com/sleepingbeauty",
-    "image": "https://hfmanor.com/image/sleepingbeauty"
+    "title": "Alien Hominid",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/alienhominid/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/alienhominid/icon.png"
   },
   {
-    "title": "Papaspizzaria",
-    "url": "https://hfmanor.com/papaspizzaria",
-    "image": "https://hfmanor.com/image/papaspizzaria"
+    "title": "Amazing Rope Police",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/amazing-rope-police/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/amazing-rope-police/icon.png"
   },
   {
-    "title": "Spinningrat",
-    "url": "https://hfmanor.com/spinningrat",
-    "image": "https://hfmanor.com/image/spinningrat"
+    "title": "Amidst the Clouds",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/amidst-the-clouds/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/amidst-the-clouds/icon.png"
   },
   {
-    "title": "Ruffle",
-    "url": "https://hfmanor.com/ruffle",
-    "image": "https://hfmanor.com/image/ruffle"
+    "title": "Among Us",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/among-us/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/among-us/icon.png"
   },
   {
-    "title": "Mineblocks",
-    "url": "https://hfmanor.com/mineblocks",
-    "image": "https://hfmanor.com/image/mineblocks"
+    "title": "Angry Sharks",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/angry-sharks/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/angry-sharks/icon.png"
   },
   {
-    "title": "Nsresurgence",
-    "url": "https://hfmanor.com/nsresurgence",
-    "image": "https://hfmanor.com/image/nsresurgence"
+    "title": "Aquapark Slides",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/aquapark-slides/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/aquapark-slides/icon.png"
+  },
+  {
+    "title": "Astray",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/astray/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/astray/icon.png"
+  },
+  {
+    "title": "Avalanche",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/avalanche/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/avalanche/icon.png"
+  },
+  {
+    "title": "Awesome Tanks 2",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/awesometanks2/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/awesometanks2/icon.png"
+  },
+  {
+    "title": "Backrooms 2D",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/backrooms-2d/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/backrooms-2d/icon.png"
+  },
+  {
+    "title": "Backrooms",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/backrooms/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/backrooms/icon.png"
+  },
+  {
+    "title": "Bacon May Die",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bacon-may-die/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bacon-may-die/icon.png"
+  },
+  {
+    "title": "Bad Ice Cream 2",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bad-ice-cream-2/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bad-ice-cream-2/icon.png"
+  },
+  {
+    "title": "Bad Ice Cream 3",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bad-ice-cream-3/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bad-ice-cream-3/icon.png"
   },
   {
     "title": "Bad Ice Cream",
-    "url": "https://hfmanor.com/bad-ice-cream",
-    "image": "https://hfmanor.com/image/bad-ice-cream"
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bad-ice-cream/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bad-ice-cream/icon.png"
   },
   {
-    "title": "Hba",
-    "url": "https://hfmanor.com/hba",
-    "image": "https://hfmanor.com/image/hba"
+    "title": "Baldi's Basics",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/baldis-basics/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/baldis-basics/icon.png"
   },
   {
-    "title": "Froggys Battle",
-    "url": "https://hfmanor.com/froggys-battle",
-    "image": "https://hfmanor.com/image/froggys-battle"
+    "title": "Ball Dodge",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/balldodge/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/balldodge/icon.png"
   },
   {
-    "title": "Scooperia",
-    "url": "https://hfmanor.com/scooperia",
-    "image": "https://hfmanor.com/image/scooperia"
+    "title": "Ballistic Chickens",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/ballistic-chickens/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/ballistic-chickens/icon.png"
   },
   {
-    "title": "Sand Game",
-    "url": "https://hfmanor.com/sand-game",
-    "image": "https://hfmanor.com/image/sand-game"
+    "title": "Basket Random",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/basket-random/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/basket-random/icon.png"
   },
   {
-    "title": "DogeMiner",
-    "url": "https://hfmanor.com/DogeMiner",
-    "image": "https://hfmanor.com/image/DogeMiner"
+    "title": "Basketball Stars",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/basketball-stars/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/basketball-stars/icon.png"
   },
   {
-    "title": "Achievementunlocked",
-    "url": "https://hfmanor.com/achievementunlocked",
-    "image": "https://hfmanor.com/image/achievementunlocked"
+    "title": "Basketbros.io",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/basketbros-io/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/basketbros-io/icon.png"
   },
   {
-    "title": "Ltf Idle",
-    "url": "https://hfmanor.com/ltf-idle",
-    "image": "https://hfmanor.com/image/ltf-idle"
+    "title": "Battle for Gondor",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/battleforgondor/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/battleforgondor/icon.png"
   },
   {
-    "title": "Iceagebaby2",
-    "url": "https://hfmanor.com/iceagebaby2",
-    "image": "https://hfmanor.com/image/iceagebaby2"
+    "title": "Big Red Button",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bigredbutton/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bigredbutton/icon.png"
   },
   {
-    "title": "Osu!",
-    "url": "https://hfmanor.com/osu!",
-    "image": "https://hfmanor.com/image/osu!"
+    "title": "Bitlife",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bitlife/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bitlife/icon.png"
   },
   {
-    "title": "Flappy Bird",
-    "url": "https://hfmanor.com/flappy-bird",
-    "image": "https://hfmanor.com/image/flappy-bird"
+    "title": "Black Hole Square",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/blacholesquare/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/blacholesquare/icon.png"
   },
   {
-    "title": "Veloce",
-    "url": "https://hfmanor.com/veloce",
-    "image": "https://hfmanor.com/image/veloce"
+    "title": "Black Knight",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/blackknight/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/blackknight/icon.png"
   },
   {
-    "title": "Geojump",
-    "url": "https://hfmanor.com/geojump",
-    "image": "https://hfmanor.com/image/geojump"
+    "title": "Blockpost",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/blockpost/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/blockpost/icon.png"
   },
   {
-    "title": "Geoneondash",
-    "url": "https://hfmanor.com/geoneondash",
-    "image": "https://hfmanor.com/image/geoneondash"
+    "title": "Bloons TD",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bloonstd/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bloonstd/icon.png"
   },
   {
-    "title": "Poom",
-    "url": "https://hfmanor.com/poom",
-    "image": "https://hfmanor.com/image/poom"
+    "title": "Bloons TD 2",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bloonstd2/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bloonstd2/icon.png"
   },
   {
-    "title": "Idledices",
-    "url": "https://hfmanor.com/idledices",
-    "image": "https://hfmanor.com/image/idledices"
+    "title": "Bloxors",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bloxors/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bloxors/icon.png"
   },
   {
-    "title": "Shuttledeck",
-    "url": "https://hfmanor.com/shuttledeck",
-    "image": "https://hfmanor.com/image/shuttledeck"
+    "title": "Bob the Robber 2",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bobtherobber2/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bobtherobber2/icon.png"
   },
   {
-    "title": "1v1space",
-    "url": "https://hfmanor.com/1v1space",
-    "image": "https://hfmanor.com/image/1v1space"
+    "title": "Bonk.io",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bonkio/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bonkio/icon.png"
   },
   {
-    "title": "Superfowlist",
-    "url": "https://hfmanor.com/superfowlist",
-    "image": "https://hfmanor.com/image/superfowlist"
+    "title": "Boxhead 2Play",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/boxhead2play/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/boxhead2play/icon.png"
   },
   {
-    "title": "Game Inside",
-    "url": "https://hfmanor.com/game-inside",
-    "image": "https://hfmanor.com/image/game-inside"
+    "title": "Boxing Random",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/boxing-random/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/boxing-random/icon.png"
   },
   {
-    "title": "Angelunder",
-    "url": "https://hfmanor.com/angelunder",
-    "image": "https://hfmanor.com/image/angelunder"
+    "title": "Breaking the Bank",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/breakingthebank/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/breakingthebank/icon.png"
   },
   {
-    "title": "Geodashlite",
-    "url": "https://hfmanor.com/geodashlite",
-    "image": "https://hfmanor.com/image/geodashlite"
+    "title": "Bloons TD 4",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/btd4/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/btd4/icon.png"
   },
   {
-    "title": "Dune",
-    "url": "https://hfmanor.com/dune",
-    "image": "https://hfmanor.com/image/dune"
+    "title": "Bloons TD 5",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/btd5/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/btd5/icon.png"
   },
   {
-    "title": "Spill It",
-    "url": "https://hfmanor.com/spill-it",
-    "image": "https://hfmanor.com/image/spill-it"
+    "title": "Burger & Frights",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/burger-and-frights/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/burger-and-frights/icon.png"
   },
   {
-    "title": "Happy Glass 1",
-    "url": "https://hfmanor.com/happy-glass-1",
-    "image": "https://hfmanor.com/image/happy-glass-1"
+    "title": "Bus and Subway",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/bus-and-subway/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/bus-and-subway/icon.png"
   },
   {
-    "title": "Dreadhead Parkout",
-    "url": "https://hfmanor.com/dreadhead-parkout",
-    "image": "https://hfmanor.com/image/dreadhead-parkout"
+    "title": "Cannon Basketball 4",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/cannon-basketball-4/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/cannon-basketball-4/icon.png"
   },
   {
-    "title": "Route Digger",
-    "url": "https://hfmanor.com/route-digger",
-    "image": "https://hfmanor.com/image/route-digger"
+    "title": "Canyon Defense",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/canyon-defense/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/canyon-defense/icon.png"
+  },
+  {
+    "title": "Cars Simulator",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/cars-simulator/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/cars-simulator/icon.png"
+  },
+  {
+    "title": "Cell Machine",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/cell-machine/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/cell-machine/icon.png"
+  },
+  {
+    "title": "Champion Island",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/champion-island/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/champion-island/icon.png"
+  },
+  {
+    "title": "Champion Archer",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/championarcher/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/championarcher/icon.png"
+  },
+  {
+    "title": "Checkers",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/checkers/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/checkers/icon.png"
+  },
+  {
+    "title": "Chess",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/chess/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/chess/icon.png"
+  },
+  {
+    "title": "Chill Radio",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/chill-radio/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/chill-radio/icon.png"
+  },
+  {
+    "title": "Chrome Dino",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/chrome-dino/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/chrome-dino/icon.png"
+  },
+  {
+    "title": "Circlo",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/circlo/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/circlo/icon.png"
+  },
+  {
+    "title": "ClassiCube",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/classicube/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/classicube/icon.png"
+  },
+  {
+    "title": "Cluster Rush",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/cluster-rush/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/cluster-rush/icon.png"
+  },
+  {
+    "title": "CMM Client",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/CMM-Client/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/CMM-Client/icon.png"
+  },
+  {
+    "title": "CN Ping Pong",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/cnpingpong/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/cnpingpong/icon.png"
+  },
+  {
+    "title": "Connect 3",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/connect3/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/connect3/icon.png"
+  },
+  {
+    "title": "Cookie Clickers",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/cookie-clickers/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/cookie-clickers/icon.png"
+  },
+  {
+    "title": "Core Ball",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/core-ball/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/core-ball/icon.png"
+  },
+  {
+    "title": "Craftmine",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/craftmine/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/craftmine/icon.png"
+  },
+  {
+    "title": "Creative Kill Chamber",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/creativekillchamber/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/creativekillchamber/icon.png"
+  },
+  {
+    "title": "Crossy Road",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/crossyroad/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/crossyroad/icon.png"
+  },
+  {
+    "title": "CS:GO Clicker",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/csgo-clicker/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/csgo-clicker/icon.png"
+  },
+  {
+    "title": "Cut The Rope Holiday",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/ctr-holiday/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/ctr-holiday/icon.png"
+  },
+  {
+    "title": "Cut The Rope Time Travel",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/ctr-tr/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/ctr-tr/icon.png"
+  },
+  {
+    "title": "Cut The Rope",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/ctr/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/ctr/icon.png"
+  },
+  {
+    "title": "Cube Field",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/cubefield/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/cubefield/icon.png"
+  },
+  {
+    "title": "Cupcake 2048",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/cupcake2048/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/cupcake2048/icon.png"
+  },
+  {
+    "title": "Dante",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/dante/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/dante/icon.png"
+  },
+  {
+    "title": "Deal or No Deal",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/deal-or-no-deal/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/deal-or-no-deal/icon.png"
+  },
+  {
+    "title": "Death Run 3D",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/death-run-3d/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/death-run-3d/icon.png"
+  },
+  {
+    "title": "Deepest Sword",
+    "url": "https://raw.githack.com/3kh0/3kh0-assets/main/deepest-sword/index.html",
+    "image": "https://raw.githack.com/3kh0/3kh0-assets/main/deepest-sword/icon.png"
   }
 ]
